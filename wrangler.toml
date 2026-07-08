@@ -1,0 +1,11 @@
+name = "settler-gateway"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Routes for settler.dev
+[[routes]]
+pattern = "settler.dev/*"
+zone_id = "<YOUR_CF_ZONE_ID>"
+
+[vars]
+LOCAL_DASHBOARD = "http://127.0.0.1:8000"
