@@ -1,5 +1,9 @@
 # Settler Gateway
 
+<!-- BEGIN: REPO HERO -->
+![settler-gateway — hero generated locally on the GPU stack](assets/repo-hero.png)
+<!-- END: REPO HERO -->
+
 Intended: a Cloudflare Worker gateway in front of the Settler FinOps platform —
 edge auth, rate limiting, and request routing.
 
